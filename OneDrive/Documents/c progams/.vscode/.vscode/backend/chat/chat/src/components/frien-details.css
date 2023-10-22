@@ -1,0 +1,42 @@
+.details{
+ 
+    padding-top: 20px ;
+}
+.user-img{
+    margin: 20px;
+    border-radius: 50%;
+}
+
+
+.username{
+    margin-left: 40px;
+}
+
+.aboutme{
+      
+    border-top: 3px rgb(0, 0, 0) solid;
+    
+}
+
+.aboutme > h5{
+    margin-left: 10px;
+}
+
+.aboutmetext{
+    text-indent: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+    height : 25vh;
+    width : 15vw ;
+    border: 3px black solid;
+    border-radius: 20px;
+}
+
+.avatar{
+    border-radius: 50%;
+}
+
+button{
+    background: transparent;
+    border: none;
+}
