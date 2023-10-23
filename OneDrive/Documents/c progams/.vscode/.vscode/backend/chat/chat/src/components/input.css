@@ -1,0 +1,69 @@
+.testarea{
+  color:white ;
+  background-color: rgb(33, 15, 25);;
+  opacity: 0.8;
+    margin : 5px ;
+  width: 80%;
+   border: none;
+    resize: none;
+    overflow : auto ;
+    scroll-behavior: smooth;
+   outline : none ;
+   border:  none;
+}
+
+.send{
+  
+    margin : 5px ;
+    float: right;
+    background-color: rgb(175, 100, 100);
+    
+}
+
+
+.messageform{
+  
+  background-color: rgb(33, 15, 25);;
+   opacity: 0.8;
+    width: 63vw;
+    border-radius: 0  0 20px 20px;
+    display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+
+
+.rep{
+  text-indent: 30px;
+  display: flex ;
+  justify-content: space-between;
+ 
+  background-color:rgb(33, 15, 25);
+  border-radius: 20px , 0  , 20px, 0;
+  color: aliceblue;
+  font-size: small;
+ 
+}
+.rep> button{
+  background-color: aliceblue;
+  color : aliceblue ;
+  border-radius: 50%;
+}
+.input{
+    margin-left: 12px ;
+    position: fixed ;
+    bottom: 2%;
+    border-radius: 30px;
+}
+
+.emojipicker{
+  position: fixed ;
+  top : 35vh ;
+  right : 20vw ;
+  z-index: 10;
+}
+.emoji{
+  height : 50px ;
+  width : 50px ;
+}

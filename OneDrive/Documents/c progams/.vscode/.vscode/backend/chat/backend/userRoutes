@@ -1,0 +1,26 @@
+const router = require('express').Router()
+const {register, allusers, setimg, allusersfind , login , addmsg , getmsg , getmessage , findone } = require("./controller.js")
+
+router.post("/register" , register) ;
+
+
+
+router.post("/login" , login)
+
+
+router.get("/alluser/:id" , allusers)
+
+router.post("/setimg/:id" , setimg )
+
+
+
+router.get("/abc" , allusersfind)
+
+
+
+router.get("/getreply/:id" , getmessage)
+
+router.post("/sendmsg" , addmsg)
+router.post("/getmsg" , getmsg)
+router.get("/getone/:id" , findone)
+module.exports = router
